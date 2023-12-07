@@ -135,7 +135,6 @@ aside.sidebar .menu-icons a:hover img {
   transform: scale(1.1);
 }
 
-
 .container .hero-image .image-bg {
   height: 424px;
   width: 350px;
@@ -198,17 +197,7 @@ aside.sidebar .menu-icons .close-btn {
   text-decoration: none;
 }
 
-
 .container .hero-image img {
-  width: 100%;
-  height: 100%;
- 
-}
-
-.container .hero-image {
-  transform: rotateZ(-3deg);
-  width: 400px;
-}.container .hero-image img {
   width: 100%;
   height: 100%;
  
@@ -270,21 +259,26 @@ aside.sidebar .menu-icons .close-btn {
 
   .container .hero-image {
     width: 100%;
-    height: 45vh;
+    height: 55vh;
     transform: rotateZ(0deg);
     position: absolute;
     left: 0;
-    top: 9%;
+    top: 7%;
   }
 
   .container .hero-image img {
-    width: 70%;
-    height: 70%;
+    width: 85%;
+    height: 85%;
     object-position: top;
-  
   }
 
-
+  .container .hero-image .image-bg {
+    transform: rotateZ(0deg) translateX(-50%);
+    width: 90%;
+    height: calc(40vh + 10px);
+    left: 50%;
+    display: none;
+  }
 
   .container .hero-container h1 {
     font-size: 32px;
@@ -318,7 +312,8 @@ aside.sidebar .menu-icons .close-btn {
     left: 0;
     right: 0;
   }
-  .footer{
-    font-size: 9px;
-  }
+  
+.footer{
+  font-size: 9px;
+}
 }
